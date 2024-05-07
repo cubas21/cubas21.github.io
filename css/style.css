@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F0E4FF;
+    color: #520072;
+}
+.logo img {
+    max-width: 60px; /* Ajusta el tamaño del logotipo según tus necesidades */
+    margin-right: 20px; /* Empuja el logo a la izquierda */
+}
+header {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila */
+    justify-content: flex-start; /* Alinea los elementos al inicio del eje horizontal */
+    align-items: center; /* Centra los elementos a lo largo del eje vertical */
+    text-align: center; /* Centra el texto */
+    background-color: #d8b5fb;
+    padding: 10px; /* Reduce el padding para disminuir el tamaño del header */
+    border-bottom: 3px solid #6B3E9C;
+    width: 100%; 
+}
+.text-container {
+    text-align: center; /* Centra el texto */
+    flex-grow: 1; /* Permite que el contenedor de texto ocupe el espacio restante */
+}
+nav {
+    background-color: #E3A0FF;
+    color: #000000;
+    text-align: center;
+    padding: 15px 20px;
+    border-bottom: 3px solid #6B3E9C;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+footer {
+    position: relative;
+    width: 100%; /* Ajusta este valor para cambiar el ancho del footer */
+    margin: 0 auto; /* Centra el footer en la página */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: white; /* Cambia este valor al color que prefieras para los enlaces */
+    text-decoration: none;
+}
+.centrado {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 25%;
+    width: 60%;
+}
+#aside {
+    order: 2;
+    width: 18%;
+    padding: 10px 0;
+    border: 3px solid #8C00F0;
+    position: absolute; /* Cambiar a posición relativa */
+    top: 180px; /* Ajustar la distancia desde el nav */
+    right: 20px; /* Posicionarlo a la derecha */
+}
+
+.info-empresa {
+    text-align: justify;
+    font-style: italic;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+}
+.logos {
+    flex: 50%; /* Hace que cada .logos ocupe el 50% del ancho de la sección, lo que resulta en 2 .logos por fila */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho del elemento */
+    padding: 10px; /* Añade un poco de espacio alrededor de cada .logos */
+}
+.IMAGEN{
+    display: flex;
+    flex-wrap: wrap;
+}

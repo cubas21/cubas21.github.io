@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F0E4FF;
+    color: #520072;
+}
+header {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila */
+    justify-content: flex-start; /* Alinea los elementos al inicio del eje horizontal */
+    align-items: center; /* Centra los elementos a lo largo del eje vertical */
+    text-align: center; /* Centra el texto */
+    background-color: #d8b5fb;
+    padding: 10px; /* Reduce el padding para disminuir el tamaño del header */
+    border-bottom: 3px solid #6B3E9C;
+    width: 100%; 
+}
+.text-container {
+    text-align: center; /* Centra el texto */
+    flex-grow: 1; /* Permite que el contenedor de texto ocupe el espacio restante */
+}
+.info-empresa {
+    text-align: justify;
+    font-style: italic;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+}
